@@ -1,0 +1,629 @@
+@font-face {
+  src: url(font/Crimes\ Times\ Six.ttf);
+  font-family: Crimes;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+main {
+  flex: 1;
+}
+
+/*navbar*/
+.vide {
+  padding-left: 10rem;
+}
+
+.logoo {
+  color: #68fff2;
+  font-family: Crimes;
+  font-size: 2.5rem;
+
+  padding-right: 6rem;
+}
+
+.btn-primary {
+  background-color: #ffffff00;
+  border-radius: 0%;
+  color: rgb(60, 230, 221);
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.rating span {
+  color: #ffc000;
+}
+
+.product {
+  border: 1px #404040 solid;
+  margin: 1rem;
+}
+.product img {
+  width: 100%;
+  max-width: 400px;
+}
+.product-info {
+  padding: 1rem;
+}
+.img-large {
+  max-width: 100%;
+}
+
+.img-thumbnail {
+  height: 80px;
+}
+
+.hero {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+video {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 95%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.button {
+  font-size: 1.5rem;
+  background-color: rgb(67, 204, 204);
+  border: none;
+  padding: 1rem;
+}
+
+.content {
+  text-align: center;
+}
+
+.content h1 {
+  font-size: 7rem;
+  color: #fff;
+  font-weight: 50;
+  font-family: Crimes;
+  transform: rotate(-15deg);
+}
+
+.content p {
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 50;
+  font-family: Crimes;
+  transform: rotate(-15deg);
+  margin-bottom: 10rem;
+}
+
+.content a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #008383;
+  font-size: 24px;
+  padding: 14px 70px;
+  font-family: 'Roboto';
+}
+
+/*Card*/
+
+.image_card {
+  display: flex;
+  justify-content: center;
+  gap: 3rem; /* Espace souhaité entre les images */
+}
+
+.image_card img {
+  width: 35rem;
+  height: 20rem;
+  object-fit: cover;
+}
+
+.image_card {
+  display: flex;
+  justify-content: center;
+  gap: 3rem; /* Espace souhaité entre les images */
+}
+
+.image_card {
+  display: flex;
+  justify-content: center;
+  gap: 5rem; /* Espace souhaité entre les images */
+}
+.image_card img {
+  filter: brightness(80%);
+}
+
+.image_container {
+  position: relative;
+}
+
+.text_overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0);
+  color: #fff;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+/*Card*/
+
+/*carousel */
+.Carousel {
+  text-align: center;
+}
+
+.Produit_Carousel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  font-family: 'Roboto';
+  color: black;
+}
+
+.carousel-image {
+  width: auto;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.TitleCarouselProduct {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+/*Card*/
+.Card {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2rem;
+}
+
+/*article*/
+
+.h3Article {
+  color: red;
+}
+
+/*footer*/
+
+footer {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #003a3a;
+  text-align: center;
+  padding: 1rem 0 1rem 0;
+}
+
+footer ul li a {
+  font-size: 1.1rem;
+}
+
+footer .logo a {
+  color: rgb(104, 255, 242);
+  font-family: Crimes;
+  font-size: 4rem;
+  text-decoration: none;
+  padding: 3rem;
+}
+
+footer .allright {
+  font-size: 1.2rem;
+  color: rgb(172, 178, 179);
+}
+
+.nav-footer {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.nav-footer .Social {
+  justify-content: flex-end;
+  padding-right: 10px;
+}
+
+.nav-footer li {
+  margin: 0;
+}
+
+.nav-footer a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.logo {
+  color: rgb(104, 255, 242);
+  font-family: Crimes;
+  font-size: 3rem;
+  text-decoration: none;
+  font-weight: 50;
+}
+.navbar {
+  width: 100%;
+  font-size: 20px;
+  padding: 2rem 8rem;
+  justify-content: space-between;
+  background: rgb(0, 214, 196);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 214, 196, 1) 0%,
+    rgba(0, 214, 196, 0.520045518207283) 30%,
+    rgba(0, 214, 196, 0) 100%
+  );
+}
+
+.cart-icon {
+  font-size: 30px;
+}
+
+.nav-link {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#dropdown-split-basic {
+  color: rgb(6, 39, 110);
+  border: none;
+}
+
+.no-border-button {
+  font-family: 'Montserrat', sans-serif;
+  color: #083086;
+  border: none; /* Supprimer la bordure des boutons */
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.no-border-button:hover {
+  background-color: transparent;
+  --_p: 100%;
+  --_s: 0.3s;
+}
+
+.redText {
+  color: rgb(6, 39, 110);
+}
+
+.button_Navbar {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0 50px 0 50px;
+  font-size: 21px;
+}
+
+.button_Navbar:hover {
+  color: white;
+  --_p: 100%;
+  --_s: 0.3s;
+  text-decoration: underline; /* Ajoutez un soulignement au texte au survol */
+  transition: text-decoration var(--_s) ease-in-out;
+}
+
+.navbar-centre {
+  font-size: large;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  padding: 0;
+  font-family: 'Roboto';
+  font-weight: 700;
+}
+
+/*FAQ*/
+
+.FAQ {
+  padding: 2rem 0 0 5rem;
+}
+
+.FAQh2 {
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(
+      to right,
+      rgba(248, 0, 0, 0),
+      rgb(255, 254, 254)
+    ),
+    url('https://images.wallpaperscraft.com/image/single/wave_sea_horizon_1030069_2560x1440.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  height: 3em;
+  margin-top: 1rem;
+  background-repeat: no-repeat;
+  margin-bottom: 3rem;
+}
+li {
+  list-style-type: none;
+  padding: 1rem;
+  font-size: medium;
+}
+
+span {
+  font-weight: bold;
+  font-size: large;
+}
+
+/*Contact*/
+
+.contact {
+  padding: 2rem 0 0 5rem;
+}
+
+form {
+  display: block;
+}
+
+form input,
+textarea {
+  flex: 1;
+  display: flex;
+}
+
+button {
+  background-color: #2ca6bb; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 25px;
+  margin-bottom: 1rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.contacth2 {
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0),
+      rgb(255, 255, 255)
+    ),
+    url('https://images.wallpaperscraft.com/image/single/wave_sea_horizon_1030069_2560x1440.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  height: 3em;
+  margin-top: 1rem;
+  background-repeat: no-repeat;
+  margin-bottom: 3rem;
+}
+
+/*Contact*/
+
+/*Qui */
+
+h2 {
+  width: 100%;
+}
+
+.block1,
+.block3 {
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+.block2,
+.block4 {
+  display: flex;
+  align-items: center;
+  text-align: right;
+}
+
+.block1 p,
+.block3 p {
+  margin: 2rem;
+}
+
+.block2 p,
+.block4 p {
+  margin: 2rem;
+}
+/*Qui*/
+
+/*Signin */
+.small-container {
+  max-width: 600px;
+  color: rgba(27, 187, 147, 0.356);
+}
+
+.dropdown-toggle::after {
+  display: flex;
+  color: rgb(136, 240, 217);
+}
+
+/*s'inscrire*/
+
+.Signin_out {
+  margin: 0 2rem 0 2rem;
+  display: flex;
+}
+
+.my-3 {
+  color: rgb(6, 39, 110);
+}
+
+.mb-3 {
+  color: rgb(6, 39, 110);
+}
+/*article*/
+.text_article {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.language-selector {
+  position: relative;
+  padding: 0rem 2rem;
+}
+
+.toggle-button {
+  background-color: #003a3a;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.language-dropdown {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #003a3a;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.language-dropdown button {
+  background-color: transparent;
+  border: none;
+  padding: 5px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.language-dropdown button:hover {
+  background-color: #21caca;
+}
+
+/*Comment formulaire*/
+
+.comments {
+  margin-top: 20px;
+}
+
+.comments-title {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.comments-container {
+  margin-top: 40px;
+}
+
+.comment-form-title {
+  font-size: 22px;
+}
+
+.comment-form-textarea {
+  width: 100%;
+  height: 80px;
+  margin-bottom: 8px;
+  margin-top: 8px;
+  border: 1px solid rgb(107, 114, 12);
+}
+
+.comment-form-button {
+  font-size: 16px;
+  padding: 8px 16px;
+  background: rgb(59, 130, 246);
+  border-radius: 8px;
+  color: white;
+}
+
+.comment-form-button:hover:enabled {
+  cursor: pointer;
+  background: rgb(37, 99, 235);
+}
+
+.comment-form-button:disabled {
+  opacity: 0.7;
+  cursor: default;
+}
+
+.comment-form-cancel-button {
+  margin-left: 10px;
+}
+
+.comment {
+  display: flex;
+  margin-bottom: 28px;
+}
+
+.comment-image-container {
+  margin-right: 12px;
+}
+
+.comment-image-container img {
+  border-radius: 50px;
+}
+
+.comment-right-part {
+  width: 100%;
+}
+
+.comment-content {
+  display: flex;
+}
+
+.comment-author {
+  margin-right: 8px;
+  font-size: 20px;
+  color: rgb(59, 130, 246);
+}
+
+.comment-text {
+  font-size: 18px;
+}
+
+.comment-actions {
+  display: flex;
+  font-size: 12px;
+  color: rgb(51, 51, 51);
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+.comment-action {
+  margin-right: 8px;
+}
+
+.comment-action:hover {
+  text-decoration: underline;
+}
+
+.replies {
+  margin-top: 20px;
+}

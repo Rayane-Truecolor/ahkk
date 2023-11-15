@@ -1,0 +1,39 @@
+.searchBar {
+  position: relative;
+  margin-left: 40px; /* Ajustez la valeur selon vos besoins */
+  text-decoration: none;
+  font-family: 'Roboto';
+}
+
+.search_results {
+  position: absolute;
+  z-index: 999;
+  top: 100%; /* Position sous la barre de recherche */
+  left: 0;
+  width: 100%; /* Largeur à 100% de la barre de recherche parente */
+  background-color: white;
+  border: 1px solid #ccc;
+  max-height: 1000px;
+  text-decoration: none;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.658
+  ); /* Enlever l'effet de surlignement */
+  transition: background-color 0.3s;
+}
+
+.search__result:hover {
+  background-color: rgb(
+    248,
+    248,
+    248
+  ); /* Mettre un arrière-plan bleu au survol */
+}
+
+.searchBar input {
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+}
